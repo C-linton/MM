@@ -1,0 +1,50 @@
+body{
+   background-image: linear-gradient(to right, #ff5722, #ff9800);
+   margin-top: 150px !important;
+   background-color: #ff9800;
+}
+.register-left{
+   text-align: center;
+   color: #fff;
+   padding: 30px;
+
+}
+.register-left{
+   padding: 20px 20px 0;
+
+}
+.register-left img{
+   margin-top: 60px;
+   margin-bottom: 18px;
+   width: 80px;
+   animation: mover Is infinite alternate;
+   
+}
+
+.register-left .btn-primary{
+  float: right;
+   border-radius: 1.5rem;
+   border: none;
+   background: #f66161;
+   font-weight: 600;
+   color: #fff;
+   margin-top: 20px;
+   padding: 10px;
+}
+.register-left .btn-primary:hover{
+   background: #000;;
+}
+.Register form{
+   border: none;
+   background:#f8f8f8;
+   border-top-left-radius: 10% ;
+}
+.register-left .btn-primary:hover{
+   background: #ff5722;
+
+
+}
+@keyframes mover{
+   0%{transform: trnslate(0);}
+   0%{transform: trnslate(-20px)};
+}
